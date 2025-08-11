@@ -25,7 +25,7 @@ img {
 /* --------------- header[start] --------------- */
 
 header {
-  padding: 50px 0px;
+  padding: 40px 0px;
 }
 
 header .profile {
@@ -64,7 +64,7 @@ header .profile {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  color: #325587;
+  color: #3f3f3f;
 }
 
 .url .group-url .url-item .media-icon {
@@ -108,7 +108,7 @@ header .profile {
 }
 
 .url .btn-telegram {
-  background-color: #224486;
+  background-color: #fb8500;
   display: block;
   width: 30%;
   margin: auto;
@@ -124,7 +124,7 @@ header .profile {
 }
 
 .url .btn-telegram:hover {
-  background-color: #1f3565;
+  background-color: #cc6302;
 }
 
 .url .btn-telegram i {
@@ -135,9 +135,9 @@ header .profile {
 
 @media only screen and (max-width: 1024px) {
   header .profile {
-    width: 70%;
+    width: 90%;
     margin: auto;
-    padding: 50px 0px 30px 0;
+    padding: 2px 0px 0px 0;
   }
 
   .container {
@@ -162,11 +162,11 @@ header .profile {
   }
 }
 @media only screen and (max-width: 480px) {
-  header .profile {
+  /* header .profile {
     width: 90%;
     margin: auto;
     padding: 40px 0px 20px 0;
-  }
+  } */
 
   .url .group-url .url-item .url-lik {
     padding: 20px 0;
